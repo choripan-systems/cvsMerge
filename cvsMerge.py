@@ -60,7 +60,7 @@ def merge_same_metric(args):
 def main():
     parser = argparse.ArgumentParser(
         prog = 'cvsMerge',
-        description="A tool for merging two CVS data files"
+        description="A tool for merging two CVS data files and optionally graph the merged data"
     )
     parser.add_argument(
         '--in-file1',
@@ -108,3 +108,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
